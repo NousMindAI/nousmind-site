@@ -22,3 +22,16 @@ export default function Home() {
           <a href="#" className="border border-cobre text-cobre px-6 py-3 rounded-2xl hover:bg-cobre hover:text-white transition">Solicitar Demonstração</a>
         </div>
       </section>
+      </section>
+
+      <section className="py-20 px-6 text-center" id="contato">
+        <h2 className="text-3xl font-bold text-cobre mb-4">Vamos conversar?</h2>
+        <p className="text-neutral-300 mb-6">Clique abaixo para falar com o Lucas via WhatsApp.</p>
+        <a href="https://wa.me/5511971021702" target="_blank" className="inline-block bg-cobre text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow hover:opacity-90 transition">
+          Falar no WhatsApp
+        </a>
+      </section>
+
+    </div> // ← Fecha a div principal
+  );
+} // ← Fecha a função Home
