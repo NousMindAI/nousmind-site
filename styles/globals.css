@@ -2,14 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-.text-copper {
-  color: rgb(192, 132, 87);
+/* Importa a fonte Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
 }
 
-.bg-copper {
-  background-color: rgb(192, 132, 87);
+body {
+  @apply bg-fundo text-textoClaro font-sans antialiased;
 }
 
-.border-copper {
-  border-color: rgb(192, 132, 87);
+.btn {
+  @apply inline-block px-6 py-3 rounded-2xl font-semibold transition shadow;
+}
+
+.btn-cobre {
+  @apply bg-cobre text-white hover:opacity-90;
+}
+
+.btn-outline-cobre {
+  @apply border border-cobre text-cobre hover:bg-cobre hover:text-white;
 }
