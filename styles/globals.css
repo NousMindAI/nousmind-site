@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-copper {
+  color: rgb(192, 132, 87);
+}
+
+.bg-copper {
+  background-color: rgb(192, 132, 87);
+}
+
+.border-copper {
+  border-color: rgb(192, 132, 87);
+}
