@@ -1,4 +1,3 @@
-import '../styles/globals.css';
 import Head from 'next/head';
 import Feature from '../components/Feature';
 
