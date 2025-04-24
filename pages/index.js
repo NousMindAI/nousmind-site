@@ -22,6 +22,14 @@ export default function Home() {
           <a href="#" className="border border-cobre text-cobre px-6 py-3 rounded-2xl hover:bg-cobre hover:text-white transition">Solicitar Demonstração</a>
         </div>
       </section>
+
+      <section className="bg-neutral-900 py-16 px-6">
+        <h2 className="text-3xl font-bold text-center mb-12">O que fazemos</h2>
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <Feature title="Agentes Inteligentes" desc="Atendimento humano com IA no WhatsApp e site." />
+          <Feature title="Automações com N8N" desc="Fluxos customizados para escalar seu negócio." />
+          <Feature title="Engenharia de Prompt" desc="Prompts otimizados que reduzem custo e erro." />
+        </div>
       </section>
 
       <section className="py-20 px-6 text-center" id="contato">
@@ -31,7 +39,6 @@ export default function Home() {
           Falar no WhatsApp
         </a>
       </section>
-
-    </div> // ← Fecha a div principal
+    </div>
   );
-} // ← Fecha a função Home
+}
